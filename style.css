@@ -1,8 +1,8 @@
 .stair-border {
   width: 320px;
   height: 220px;
-  background: purple;
-  padding: 10px;
+  background: rgb(129, 31, 129);
+  padding: 5px;
   clip-path: polygon(
     0% 12%, 4% 12%, 4% 8%, 8% 8%, 8% 4%, 12% 4%, 12% 0%,
     88% 0%, 88% 4%, 92% 4%, 92% 8%, 96% 8%, 96% 12%, 100% 12%,
@@ -19,5 +19,27 @@
   align-items: center;
   justify-content: center;
   font-weight: bold;
-  clip-path: inherit;
+    clip-path: polygon(
+    0% 12%, 4% 12%, 4% 8%, 8% 8%, 8% 4%, 12% 4%, 12% 0%,
+    88% 0%, 88% 4%, 92% 4%, 92% 8%, 96% 8%, 96% 12%, 100% 12%,
+    100% 88%, 96% 88%, 96% 92%, 92% 92%, 92% 96%, 88% 96%, 88% 100%,
+    12% 100%, 12% 96%, 8% 96%, 8% 92%, 4% 92%, 4% 88%, 0% 88%
+  );
+  position: absolute;
+  
+}
+.most-outer {
+  background-color: rgb(60, 9, 54);
+  position: relative;
+  left: 50px;
+  top: 50px;
+  width: 320px;
+  height: 220px;
+  padding: 10px;
+  clip-path: polygon(
+    0% 12%, 4% 12%, 4% 8%, 8% 8%, 8% 4%, 12% 4%, 12% 0%,
+    88% 0%, 88% 4%, 92% 4%, 92% 8%, 96% 8%, 96% 12%, 100% 12%,
+    100% 88%, 96% 88%, 96% 92%, 92% 92%, 92% 96%, 88% 96%, 88% 100%,
+    12% 100%, 12% 96%, 8% 96%, 8% 92%, 4% 92%, 4% 88%, 0% 88%
+  );
 }
